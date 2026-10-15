@@ -8,3 +8,8 @@ elif numero2 > numero1 and numero2 > numero3:
     print(f"{numero2}")
 else:
     print(f"{numero3}")
+
+# Optimizado:
+# Añadir cuando se tienen varios valores (en este caso numeros),
+# un valor que indique cual es mayor
+# Ejemplo: mayor = max(numero1, numero2, numero3)

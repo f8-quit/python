@@ -1,0 +1,10 @@
+numero = int(input("Dime un año: "))
+
+if numero % 4 != 0:
+    print("No es bisiesto")
+elif numero % 100 != 0:
+    print("Es bisiesto")
+elif numero % 400 != 0:
+    print("No es bisiesto")
+else:
+    print("Es bisiesto")
